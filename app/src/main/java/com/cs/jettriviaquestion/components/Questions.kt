@@ -41,6 +41,7 @@ fun Questions(viewModel: QuestionsViewModel) {
     val questions = viewModel.data.value.data?.toMutableList() //Important!
 
     val questionIndex = remember {
+
         mutableStateOf(0)
     }
 
